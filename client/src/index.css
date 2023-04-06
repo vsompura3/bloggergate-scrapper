@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen min-w-full;
+}
+
+#root {
+  @apply flex min-h-screen flex-col;
+}
+
+@layer utilities {
+  .blob-delay-2000 {
+    animation-delay: 2000ms;
+  }
+
+  .blob-delay-4000 {
+    animation-delay: 4000ms;
+  }
+
+  .blob-delay-6000 {
+    animation-delay: 6000ms;
+  }
+}
