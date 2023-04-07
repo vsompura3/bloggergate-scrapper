@@ -13,6 +13,9 @@ export default {
           "66%": { transform: "translate(20px, 60px) scale(.9)" },
         },
       },
+      fontFamily: {
+        "funky-serif": ["Old Standard TT", "serif"],
+      },
     },
   },
   plugins: [],

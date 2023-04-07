@@ -4,7 +4,7 @@ import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import Main from "./components/layout/Main";
 import { AppContext } from "./context/Context";
-import HackerNews from "./pages/HackerNews";
+import Blogs from "./pages/Blogs";
 import Home from "./pages/Home";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/hackernews" element={<HackerNews />} />
+            <Route path="/blogs" element={<Blogs />} />
           </Routes>
         </Main>
         <Footer />
