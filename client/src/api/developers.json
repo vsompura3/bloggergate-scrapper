@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Vaibhav Sompura",
+    "email": "vsompura3@gmail.com",
+    "avatar": "https://avatars.githubusercontent.com/u/42895093?v=4",
+    "github_url": "https://github.com/vsompura3",
+    "linkedin_url": "https://linked.com/in/vaibhav-sompura",
+    "tag": "Full-Stack Developer"
+  },
+  {
+    "id": 2,
+    "name": "Shubham Kumar Singh",
+    "email": "",
+    "avatar": "https://avatars.githubusercontent.com/u/103831599?v=4",
+    "github_url": "https://github.com/shubhamdev69",
+    "linkedin_url": "https://linked.com/in/vaibhav-sompura",
+    "tag": "Developer"
+  },
+  {
+    "id": 3,
+    "name": "Rajat Jain",
+    "email": "",
+    "avatar": "https://avatars.githubusercontent.com/u/65152570?v=4",
+    "github_url": "https://github.com/RAJATJAIN1290",
+    "linkedin_url": "https://linked.com/in/vaibhav-sompura",
+    "tag": "Developer"
+  },
+  {
+    "id": 4,
+    "name": "Subhrajyoti Singha Roy",
+    "email": "",
+    "avatar": "https://picsum.photos/200/200?random=1",
+    "github_url": "https://github.com/RAJATJAIN1290",
+    "linkedin_url": "https://linked.com/in/vaibhav-sompura",
+    "tag": "Developer"
+  },
+  {
+    "id": 5,
+    "name": "Ryuk-me",
+    "email": "",
+    "avatar": "https://avatars.githubusercontent.com/u/55330971?v=4",
+    "github_url": "https://github.com/Ryuk-me",
+    "linkedin_url": null,
+    "tag": "Backend Developer"
+  },
+  {
+    "id": 6,
+    "name": "Tanupam Saha",
+    "email": "",
+    "avatar": "https://avatars.githubusercontent.com/u/54593072?v=4",
+    "github_url": "https://github.com/decoder-17",
+    "linkedin_url": "https://linked.com/in/tanupamsaha",
+    "tag": "Frontend Developer"
+  }
+]

@@ -7,7 +7,7 @@ export default function Header() {
             Bloggergate.
           </h1>
           <p className="mt-5 text-center text-xl md:text-left lg:pl-8">
-            Discover stories, thinking, and expertise from writers on any topic.
+            Discover stories, thinking, and expertise from writers.
           </p>
         </div>
       </header>

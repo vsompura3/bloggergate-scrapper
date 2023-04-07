@@ -11,7 +11,6 @@ export default function Blogs() {
 
   const fetchPosts = async () => {
     const data = await getPosts("lobste", "recent");
-    console.log(data);
     setState([...data]);
   };
   return <div>Blogs</div>;
