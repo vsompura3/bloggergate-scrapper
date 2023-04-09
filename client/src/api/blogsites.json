@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com/",
+    "description": "A social news website focusing on computer science and entrepreneurship.",
+    "tags": ["news", "programming", "entrepreneurship"]
+  },
+  {
+    "id": 2,
+    "name": "Lobste",
+    "url": "https://lobste.rs/",
+    "description": "A community centered around link aggregation and discussion of interesting content found on the web.",
+    "tags": ["news", "programming"]
+  }
+]

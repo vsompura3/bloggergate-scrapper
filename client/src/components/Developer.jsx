@@ -10,6 +10,8 @@ export default function Developer({
   return (
     <div className="relative rounded-md border border-slate-400 bg-white/80 shadow-lg shadow-slate-200 after:absolute after:inset-0 after:rounded-md after:bg-gradient-to-bl after:from-transparent after:to-black/70">
       <img
+        width={50}
+        height={50}
         className="w-full rounded-md"
         src={avatar}
         alt={`profile picture of ${name}`}

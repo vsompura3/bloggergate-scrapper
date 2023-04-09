@@ -5,14 +5,14 @@ export default function Footer() {
     <footer className="bg-accent-1 border-accent-2 border-t">
       <div className="container relative mx-auto px-5">
         <div className="flex flex-col items-center py-8 lg:flex-row">
-          <h3 className="mb-6 text-center text-xl leading-tight tracking-tighter lg:mb-0 lg:w-1/2 lg:pr-4 lg:text-left">
+          <p className="mb-6 text-center text-xl leading-tight tracking-normal lg:mb-0 lg:w-1/2 lg:pr-4 lg:text-left">
             Created with <span className="">ReactJS</span> and{" "}
             <span className="">Java</span> <span className="">SpringBoot</span>{" "}
             developed with ❤️ by{" "}
             <Link className="underline hover:text-gray-600" to="/about">
               us.
             </Link>
-          </h3>
+          </p>
           <div className="flex flex-col items-center justify-end lg:w-1/2 lg:flex-row lg:pl-4">
             <a
               href="https://github.com/vsompura3/bloggergate-scrapper"
