@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  @apply min-h-screen min-w-full;
+  @apply min-h-screen min-w-full text-slate-900;
 }
 
 #root {

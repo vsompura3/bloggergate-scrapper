@@ -18,8 +18,8 @@ export default function Home() {
         <p className="mb-8 text-lg sm:mb-12 md:px-32 md:text-xl lg:text-2xl">
           Whether sharing your expertise, breaking news, or whatever’s on your
           mind, you’re in good company on{" "}
-          <span className="italic">Bloggergate</span>. Discover why millions of
-          people have published their passions here.
+          <span className="font-light italic">Bloggergate</span>. Discover why
+          millions of people have published their passions here.
         </p>
         <Link
           to="/blogs"

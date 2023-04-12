@@ -62,7 +62,7 @@ export default function Developer({
         </div>
         <h3 className="text-2xl font-semibold text-white">{name}</h3>
       </div>
-      <span className="absolute left-3 top-0 z-10 inline-block -translate-y-1/2 rounded-full bg-slate-700 px-3 py-0.5 text-sm text-white">
+      <span className="absolute left-3 top-0 z-10 inline-block -translate-y-1/2 rounded-full bg-gray-700 px-3 py-0.5 text-sm text-white">
         {tag}
       </span>
     </div>
