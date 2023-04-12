@@ -30,7 +30,7 @@ public class HackerNews {
     private Integer blogId;
 
     public HackerResponse getBlogs(String page, String date) {
-        String url = "https://news.ycombinator.com/?p=" + page;
+        String url = "https://news.ycombinator.com/?p=" + page;  // HackerNews Url
         if (date != null) {
             // ! Date Format YYYY-MM-DD 2014-05-25
             url = "https://news.ycombinator.com/front?day=" + date + "&p=" + page;
