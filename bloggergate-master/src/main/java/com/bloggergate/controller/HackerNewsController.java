@@ -17,25 +17,25 @@ import com.bloggergate.model.HackerResponse;
 @RequestMapping("api/v1/hacker")
 public class HackerNewsController {
 
-    @ResponseStatus(HttpStatus.OK)
-    @GetMapping(value = "/blogs", produces = MediaType.APPLICATION_JSON_VALUE)
-    public HackerResponse getBlogs(@RequestParam(name = "page", required = false) String page,
-            @RequestParam(name = "date", required = false) String date) {
+  @ResponseStatus(HttpStatus.OK)
+  @GetMapping(value = "/blogs", produces = MediaType.APPLICATION_JSON_VALUE)
+  public HackerResponse getBlogs(@RequestParam(name = "page", required = false) String page,
+      @RequestParam(name = "date", required = false) String date) {
 
-        return new HackerNews().getBlogs(page == null ? "1" : page, date);
-    }
+    return new HackerNews().getBlogs(page == null ? "1" : page, date);
+  }
 
-    @ResponseStatus(HttpStatus.OK)
-    @GetMapping(value = "/recent", produces = MediaType.APPLICATION_JSON_VALUE)
-    public HackerResponse getRecentBlogs(@RequestParam(name = "next", required = false) String next) {
+  @ResponseStatus(HttpStatus.OK)
+  @GetMapping(value = "/recent", produces = MediaType.APPLICATION_JSON_VALUE)
+  public HackerResponse getRecentBlogs(@RequestParam(name = "next", required = false) String next) {
 
-        return new HackerNews().getRecentBlogs(next);
-    }
+    return new HackerNews().getRecentBlogs(next);
+  }
 
-    @ResponseStatus(HttpStatus.OK)
-    @GetMapping(value = "/top", produces = MediaType.APPLICATION_JSON_VALUE)
-    public HackerResponse getTopBlogs(@RequestParam(name = "page", required = false) String page) {
+  @ResponseStatus(HttpStatus.OK)
+  @GetMapping(value = "/top", produces = MediaType.APPLICATION_JSON_VALUE)
+  public HackerResponse getTopBlogs(@RequestParam(name = "page", required = false) String page) {
 
-        return new HackerNews().getTopBlogs(page == null ? "1" : page);
-    }
+    return new HackerNews().getTopBlogs(page == null ? "1" : page);
+  }
 }
