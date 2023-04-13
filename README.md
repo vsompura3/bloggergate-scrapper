@@ -16,7 +16,7 @@
 
 - [Vaibhav Sompura](https://github.com/vsompura3)
 - [Shubham Kumar Singh](https://github.com/shubhamdev69)
-- [Rajat Jain](https://github.com/)
+- [Rajat Jain](https://github.com/RAJATJAIN1290)
 - [Subhrajyoti Singha Roy](https://github.com/)
 
 Visit api endpoints [here](https://backend-ems-ryuk-me.cloud.okteto.net/swagger-ui/index.html)
