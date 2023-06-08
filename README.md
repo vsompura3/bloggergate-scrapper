@@ -15,6 +15,7 @@
 ### Developer Team
 
 - [Vaibhav Sompura](https://github.com/vsompura3)
+- [Neeraj Kumar](https://github.com/ryuk-me)
 - [Shubham Kumar Singh](https://github.com/shubhamdev69)
 - [Rajat Jain](https://github.com/RAJATJAIN1290)
 - [Subhrajyoti Singha Roy](https://github.com/subhrajyoti842)
